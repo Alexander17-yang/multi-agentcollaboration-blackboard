@@ -115,8 +115,7 @@ multi-agentcollaboration-blackboard/
     └── test_blackboard.py
 ```
 
-python -B C:\path\to\skill-creator\scripts\quick_validate.py .
-```
+
 
 ## 使用边界
 
