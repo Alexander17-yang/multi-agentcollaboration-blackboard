@@ -32,8 +32,6 @@
 - **Review 控制**：支持事实挑战、路线抑制、分支假设和 Operator Directive。
 - **原子并发**：使用 SQLite 事务完成 claim、续租、释放和状态写入。
 - **安全降级**：Blackboard 不可用时，停止重复尝试并切换到原生协作。
-- **兼容迁移**：支持新的 `MULTI_AGENT_COLLABORATION_*` 配置，同时保留
-  `INFINITEX_*` 兼容入口。
 
 ## 双平面架构
 
@@ -91,7 +89,7 @@ Intent、Activity 与 Resource 可以同时使用：Agent 可以拥有一个 Int
 
 ## 环境要求
 
-- Python 3.9 或更高版本；
+- Python 3.11 或更高版本；
 - Python 标准库中的 `sqlite3`；
 - 由 Coordinator 或现有系统创建的兼容 Blackboard 数据库。
 
