@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-agentcollaboration-blackboard"
+  short_description: "Coordinate agents with durable evidence and leases"
+  default_prompt: "Use $multi-agentcollaboration-blackboard to coordinate this multi-agent task with durable claims, evidence, and clean handoffs."
