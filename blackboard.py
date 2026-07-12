@@ -23,7 +23,7 @@ from typing import Any, Iterator, Optional, Sequence
 
 VERSION = "2.1.0"
 SQLITE_MAGIC = b"SQLite format 3\x00"
-MARKER_NAMES = (".multi_agent_collaboration_blackboard", ".infinitex_blackboard")
+MARKER_NAMES = (".multi_agent_collaboration_blackboard", ".Alex_blackboard")
 DIRECT_DB_NAMES = ("multi_agent_collaboration_blackboard.db", "shared_graph.db")
 
 _CLI_DB = ""
